@@ -1,4 +1,4 @@
-FROM nextcloud:17.0.2-fpm
+FROM nextcloud:17.0.3-fpm
 
 RUN export CFLAGS="$PHP_CFLAGS" CPPFLAGS="$PHP_CPPFLAGS" LDFLAGS="$PHP_LDFLAGS" \
     && apt-get update \
